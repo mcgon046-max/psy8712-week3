@@ -8,3 +8,4 @@ raw_df$timeEnd <- as.POSIXct(raw_df$timeEnd)
 clean_df <- raw_df[format(raw_df$timeStart, "%Y-%m") != "2017-06", ]
 clean_df <- clean_df[clean_df$q6 == 1,]
 # Left empty, not included in instructions 
+# Analysis 
